@@ -386,7 +386,11 @@ main .hero .btn2 {
   left: 16%;
 }
 
-footer {
+.outer {
+  width: 100%;
+  padding: 20px;
+}
+.outer footer {
   width: 96%;
   margin: auto;
   margin-bottom: 30px;
@@ -398,25 +402,25 @@ footer {
   align-items: center;
   justify-content: space-between;
 }
-footer .first {
+.outer footer .first {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
   gap: 40vh;
 }
-footer .first .logo {
+.outer footer .first .logo {
   font-size: 24px;
   font-weight: bold;
 }
-footer .second {
+.outer footer .second {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   gap: 30px;
 }
-footer .second .box {
+.outer footer .second .box {
   display: flex;
   align-items: start;
   justify-content: center;
@@ -424,10 +428,10 @@ footer .second .box {
   flex-direction: column;
   text-align: start;
 }
-footer .second .box h5 {
+.outer footer .second .box h5 {
   font-size: 16px;
   font-weight: bold;
 }
-footer .second .box a {
+.outer footer .second .box a {
   color: rgb(72, 72, 72);
 }/*# sourceMappingURL=style.css.map */
