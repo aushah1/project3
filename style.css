@@ -1,0 +1,433 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+nav .links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+nav .left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+nav .left .search {
+  width: 10rem;
+  border: 1px solid black;
+  height: 30px;
+  border-radius: 20px;
+  padding: 4px 5px;
+}
+nav .left .cart {
+  width: 40px;
+  height: 40px;
+  background: #000;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+main {
+  margin: 30px;
+}
+main .heading {
+  font-size: 4rem;
+  font-weight: bold;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+main .hero {
+  position: relative;
+  width: 100%;
+  border-radius: 10px;
+  margin-top: 20px;
+  overflow: hidden;
+}
+main .hero img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  border-radius: 10px;
+}
+main .hero .btns {
+  position: absolute;
+  bottom: 5%;
+  left: 2%;
+}
+main .hero .btn1 {
+  padding: 10px 20px;
+  border-radius: 30px;
+  border: none;
+  background-color: #000;
+  color: white;
+}
+main .hero .btn2 {
+  padding: 10px 20px;
+  border-radius: 30px;
+  border: none;
+  background-color: white;
+  color: #000;
+}
+
+.summer {
+  padding: 10px 20px;
+}
+.summer .top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.summer .top h2 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+.summer .top p {
+  color: gray;
+}
+.summer .top .btn1 {
+  padding: 10px 20px;
+  border-radius: 30px;
+  border: none;
+  background-color: #000;
+  color: white;
+}
+.summer .cat {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 20px;
+  padding: 20px 0;
+}
+.summer .cat .box {
+  border: 1px solid black;
+  padding: 10px 20px;
+  border-radius: 30px;
+}
+.summer .cards1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+.summer .cards1 .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.summer .cards1 .card .img {
+  position: relative;
+  border-radius: 16px;
+  overflow: hidden;
+}
+.summer .cards1 .card .img img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+.summer .cards1 .card .img button {
+  position: absolute;
+  padding: 8px 14px;
+  border-radius: 30px;
+  border: none;
+  background-color: transparent;
+  color: black;
+  top: 5%;
+  left: 3%;
+  border: 1px solid black;
+}
+.summer .cards1 .card .bottom h4 {
+  text-align: start;
+  font-weight: 550;
+  margin-bottom: 5px;
+}
+.summer .cards1 .card .bottom p {
+  color: red;
+}
+.summer .cards2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+.summer .cards2 .card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 16px;
+}
+.summer .cards2 .card img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+.summer .cards2 .card .bottom {
+  position: absolute;
+  bottom: 5%;
+  left: 5%;
+}
+.summer .cards2 .card .bottom button {
+  padding: 8px 14px;
+  border-radius: 30px;
+  border: none;
+  background-color: black;
+  color: white;
+  border: 1px solid black;
+  margin-bottom: 10px;
+}
+.summer .cards2 .card .bottom h4 {
+  text-align: start;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.real {
+  padding: 10px 20px;
+}
+.real .top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.real .top h2 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+.real .top .left {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  gap: 10px;
+  flex-direction: column;
+}
+.real .top .left p {
+  color: gray;
+}
+.real .top .left .btn1 {
+  padding: 10px 20px;
+  border-radius: 30px;
+  border: none;
+  background-color: #000;
+  color: white;
+}
+.real .cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+.real .cards .card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 16px;
+}
+.real .cards .card img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+.real .cards .card .bottom {
+  position: absolute;
+  bottom: 5%;
+  left: 5%;
+}
+.real .cards .card .bottom button {
+  padding: 8px 14px;
+  border-radius: 30px;
+  border: none;
+  background-color: black;
+  color: white;
+  border: 1px solid black;
+  margin-bottom: 10px;
+}
+
+.full {
+  position: relative;
+  margin: 30px 0;
+  padding: 20px;
+  width: 100%;
+  border-radius: 10px;
+  margin-top: 20px;
+  overflow: hidden;
+}
+.full img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  border-radius: 10px;
+}
+.full .bottom {
+  position: absolute;
+  bottom: 10%;
+  left: 6%;
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  justify-content: start;
+  gap: 20px;
+  width: 50%;
+}
+.full .bottom .heading {
+  font-size: 3rem;
+  font-weight: 500;
+  text-align: start;
+}
+.full .bottom .info {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 10px;
+}
+.full .bottom .info input {
+  background: #000;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+}
+.full .bottom .info .arr {
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.elevate {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 70vh;
+  gap: 20px;
+}
+.elevate h3 {
+  font-size: 3rem;
+  font-weight: 600;
+  text-align: center;
+  z-index: 10;
+}
+.elevate button {
+  padding: 10px 20px;
+  border-radius: 30px;
+  border: none;
+  background-color: #000;
+  color: white;
+}
+.elevate img {
+  position: absolute;
+  border-radius: 20px;
+}
+.elevate .img1 {
+  position: absolute;
+  border-radius: 20px;
+  top: 5%;
+  left: 6%;
+}
+.elevate .img2 {
+  position: absolute;
+  border-radius: 20px;
+  top: 0%;
+  right: 6%;
+}
+.elevate .img3 {
+  position: absolute;
+  border-radius: 20px;
+  top: 60%;
+  right: 16%;
+}
+.elevate .img4 {
+  position: absolute;
+  border-radius: 20px;
+  top: 60%;
+  left: 16%;
+}
+
+footer {
+  width: 96%;
+  margin: auto;
+  margin-bottom: 30px;
+  padding: 20px;
+  border-radius: 20px;
+  min-height: 60vh;
+  background: linear-gradient(145deg, rgb(251, 242, 229) 0%, rgb(243, 248, 230) 19%);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+footer .first {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40vh;
+}
+footer .first .logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+footer .second {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+footer .second .box {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  gap: 10px;
+  flex-direction: column;
+  text-align: start;
+}
+footer .second .box h5 {
+  font-size: 16px;
+  font-weight: bold;
+}
+footer .second .box a {
+  color: rgb(72, 72, 72);
+}/*# sourceMappingURL=style.css.map */
